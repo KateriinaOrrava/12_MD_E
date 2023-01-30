@@ -32,13 +32,13 @@ export const TodoKeeper: React.FC<TodoKeeperProps> = ({addTodo}) => {
                 <div className={styles.field_container}>
                     <label htmlFor="name">
                         <div className="">name</div>
-                        <input type="text" id='name' value={todo.name} name='name' onChange={onChange}/>
+                        <input type="text" id='name' value={todo.name} name='name' onChange={onChange} placeholder='Add Task Name'/>
                     </label>
                 </div>
                 <div className={styles.field_container}>
                     <label htmlFor="description">
                         <div>description</div>
-                        <input type="text" id='description' value={todo.description} name='description' onChange={onChange}/>
+                        <input type="text" id='description' value={todo.description} name='description' onChange={onChange} placeholder='Add Task Description'/>
                     </label>
                 </div>
             </div>

@@ -13,11 +13,14 @@
     cursor:pointer;
     font-size: 25px;
     font-weight: 600;
+ text-align: left;
+
 }
 
 .todo_item_description {
     margin-bottom:15px;
     font-size: 15px;
+    text-align: left;
 }
 
 .todo_item_button_container {

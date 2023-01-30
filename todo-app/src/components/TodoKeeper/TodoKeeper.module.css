@@ -1,4 +1,5 @@
 .todo_panel_container{
+    background-color: white;
     margin-bottom:15px;
     width: 100%;
     padding: 25px 20px;
@@ -12,13 +13,15 @@
     gap: 10px;
 }
 .field_container{
-    width: 100%;
+    width: 80%;
 }
 .field_container label {
-    display:flex;
     flex-direction:column;
+    display:flex;
     gap:5px;
     font-size:15px;
+    text-align: left;
+    opacity:0.3;
 }
 
 .field_container input {
@@ -26,11 +29,12 @@
     padding: 10px 5px;
     border-radius:2px;
     border: 0.5px solid black;
+    background-color: 	#ebeaea;
 }
 
 
 .button_container {
-    width: 100%;
+    width: 80%;
     text-align: right;
     margin-top:10px;
 }
